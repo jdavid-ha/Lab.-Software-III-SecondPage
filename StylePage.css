@@ -1,4 +1,4 @@
-header {
+header, footer {
     background-color: #1f5a70;
     color: white;
     padding: 30px;
@@ -38,6 +38,7 @@ button:hover {
     cursor: pointer;
 }
 
+/*Estilo general para la primera capa de Médico*/
 .medCard { 
     background-color: #71cfac;
     border-radius: 7px;
@@ -45,6 +46,7 @@ button:hover {
     margin: 5px;
 }
 
+/*Estilos particulares para la segunda capa de Médico*/
 #medContainer1 { 
     background-color: #1f5a70;
     border-radius: 5px;
@@ -64,4 +66,15 @@ button:hover {
     border-radius: 5px;
     opacity: 0.9;
     padding: 1px;
+}
+
+/* Sin agrupación, repetitivo
+h1 { color: white; }
+h2 { color: white; }
+p  { color: white; }
+*/
+
+/* Con agrupación, más limpio */
+h1, h2, p {
+    color: white;
 }
